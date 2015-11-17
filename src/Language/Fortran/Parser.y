@@ -1,6 +1,8 @@
 {
 module Language.Fortran.Parser (
     parser
+  , parse
+  , parseF
   , include_parser
     -- * Helpers
   , fst3
